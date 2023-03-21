@@ -6,5 +6,5 @@
 
 | 标题                                                         | 简述                     |
 | ------------------------------------------------------------ | ------------------------ |
-| [01-HelloWorld]([my-go-learn/01-HelloWorld at main · skjsnb/my-go-learn (github.com)](https://github.com/skjsnb/my-go-learn/tree/main/01-HelloWorld)) | 包、数据类型、变量和函数 |
+| [01-HelloWorld](https://github.com/skjsnb/my-go-learn/tree/main/01-HelloWorld) | 包、数据类型、变量和函数 |
 
