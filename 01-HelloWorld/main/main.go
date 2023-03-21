@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"unicode/utf8"
+)
 
 func main() {
 	// ---- print title -------
@@ -16,6 +19,18 @@ func main() {
 	name, age := GetMySelfInformation()
 	infoStr := introduceMyself(name, age)
 	println(infoStr)
+
+	var str1 = "你好，世界！"
+	fmt.Printf("%s size = %d, len = %d\r\n", str1, len(str1), utf8.RuneCountInString(str1))
+
+	var a = 1
+	println(a)
+
+	var (
+		aa = 1
+		bb = "Hello"
+	)
+	println(aa, bb)
 }
 
 // introduceMyself
